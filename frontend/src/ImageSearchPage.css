@@ -1,0 +1,44 @@
+.main{
+    padding: 20px 0px;
+}
+.inputDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+input {
+    padding: 8px 16px;
+    border: 1px solid #7d7b7b;
+    outline: none;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 16px;
+
+}
+button{
+    outline: none;
+    background-color: #47beb9;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    cursor: pointer;
+}
+.images{
+    padding :20px 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+img{
+    height: 300px;
+    width: 24%;
+    border-radius: 5px;
+    object-fit: cover;
+    background-position: center;
+}
