@@ -4,13 +4,7 @@ const axios=require('axios')
 const app=express()
 app.use(cors({origin:'*'}))
 //x7zKfjMc-MfUhyi9RZPBHYgSXRVIKEMO0vSRf8lZrI0
-axios.get('/api/data')
-  .then(response => {
-    console.log(response.data);
-  })
-  .catch(error => {
-    console.log(error);
-  });
+
 
 app.get("/",async (req,res)=>{
     const searchKeyword=req.query.searchKeyword
